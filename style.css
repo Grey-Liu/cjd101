@@ -1,0 +1,19 @@
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #f9f9f9;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+td {
+    padding: 8px 12px;
+    text-align: center;
+    border: 1px solid #aaa;
+    background: #fff;
+    transition: background 0.3s;
+}
+td:hover {
+    background: #ffe082;
+}
+tr:nth-child(even) td {
+    background: #f1f8e9;
+}
