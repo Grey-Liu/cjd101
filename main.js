@@ -1,4 +1,4 @@
-console("Hollo world!")
+console.log("Hollo world!")
 
 let html = "<table border='1' cellspacing='0' cellpadding='5'>";
 for (let i = 1; i <= 9; i++) {
